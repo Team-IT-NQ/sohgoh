@@ -1061,6 +1061,10 @@
  	background-repeat: no-repeat;
  }
 
+ .gr-tg-top-10  .gr-tg-desc10 li{
+	height: 274px;
+ }
+
  .gr-tg-desc10 li p {
  	padding-bottom: 24px;
  	color: #C1272D;
