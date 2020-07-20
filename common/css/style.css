@@ -105,6 +105,23 @@
  	position: relative;
  }
 
+ .item_body:first-child ul li {
+ 	text-align: center;
+ }
+
+ .item_body:first-child ul li:not(:first-child) {
+ 	margin-top: 18px;
+ }
+
+ .item_body:first-child ul li span {
+ 	display: block;
+ 	color: #ffffff;
+ 	font-size: 12px;
+ 	font-weight: bold;
+ 	line-height: 130%;
+ 	margin-top: 12px;
+ }
+
  .item_body:first-child {
  	width: 140px;
  }
@@ -728,7 +745,7 @@
  }
 
  .gr-tg-wrap05 ul {
-	margin-bottom: 55px;
+ 	margin-bottom: 55px;
  	align-items: center;
  	justify-content: center;
  }
