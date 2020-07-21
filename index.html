@@ -9,7 +9,6 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" href="common/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="common/css/library.css">
     <link rel="stylesheet" type="text/css" href="common/css/reset.css">
     <link rel="stylesheet" type="text/css" href="common/css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="common/css/owl.theme.default.min.css">
@@ -778,6 +777,11 @@
                               </div> <!-- end /.gr-tg-sub-mefo01 -->
                             </div> <!-- end /.gr-tg-mefo01 -->
 
+                              <div class="gr-tg-mefo01 hide-pc">
+                              <h3><a href="">SOHGOH RECRUIT</a></h3>
+                              <h3>COMPANY PROFILE</h3>
+                           </div> <!-- end /.gr-tg-mefo01 -->
+
                           </div>
                         </div>
                        </div>
@@ -785,7 +789,10 @@
                        <div class="boxs">
 
                           <div class="gr-tg-logofo">
-                           <a href="./"><img class="gr-tg-icon-whlogofo" src="common/img/logo-fo.svg" alt="綜含自動車学絞"></a>
+                           <a href="./">
+                            <img class="gr-tg-icon-whlogofo" src="common/img/logo-fo.svg" alt="綜含自動車学絞">
+                            <img class="gr-tg-icon-whlogofo sp hide-pc" src="common/img/logo-fo-sp.svg" alt="綜含自動車学絞">
+                           </a>
                           </div> <!-- end /.gr-tg-logofo -->
 
                           <div class="gr-tg-info">
@@ -843,9 +850,7 @@
       var $height_body = $("body").height();
      
       if($height_body < 650 ) {
-        console.log($height_body);
-         $he = $height_body - 50 ;
-         console.log($he);
+        $he = $height_body - 50 ;
         $(function(){
           $('.inner-content-div').slimScroll({
               height: $he+'px',
@@ -875,11 +880,11 @@
               0:{
                   items:1,
               },
-              600:{
-                  items:3,
+              750:{
+                items:1.5,
               },
               1000:{
-                  items:3.758,
+                items:3.758,
               }
           }
         });
@@ -898,8 +903,8 @@
               0:{
                   items:1,
               },
-              600:{
-                  items:2.5,
+              900:{
+                  items:1,
               },
               1000:{
                   items:2.85,

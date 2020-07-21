@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="147.599" height="28" viewBox="0 0 147.599 28">
-  <g id="Group_2525" data-name="Group 2525" transform="translate(-897 -10243)">
-    <path id="Icon_material-open-in-new" data-name="Icon material-open-in-new" d="M20.157,20.49H6.457V6.5h6.85v-2H6.457A1.978,1.978,0,0,0,4.5,6.5V20.49a1.978,1.978,0,0,0,1.957,2h13.7a1.984,1.984,0,0,0,1.957-2v-7H20.157ZM15.264,4.5v2h3.513L9.158,16.323l1.38,1.409,9.619-9.824V11.5h1.957v-7Z" transform="translate(1022.484 10244.738)" fill="#fff"/>
-    <text id="Google_Maps" data-name="Google Maps" transform="translate(956 10263)" fill="#fff" font-size="19" font-family="Meiryo"><tspan x="-58.999" y="0">Google Maps</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="255.021" height="48" viewBox="0 0 255.021 48">
+  <g id="Group_2524" data-name="Group 2524" transform="translate(-252 -20374)">
+    <path id="Icon_material-open-in-new" data-name="Icon material-open-in-new" d="M31.491,32.065H7.874V7.946H19.682V4.5H7.874A3.409,3.409,0,0,0,4.5,7.946V32.065a3.409,3.409,0,0,0,3.374,3.446H31.491a3.42,3.42,0,0,0,3.374-3.446V20.005H31.491ZM23.056,4.5V7.946h6.056L12.53,24.881l2.379,2.429L31.491,10.375V16.56h3.374V4.5Z" transform="translate(472.156 20380.219)" fill="#fff"/>
+    <text id="Google_Maps" data-name="Google Maps" transform="translate(352 20408)" fill="#fff" font-size="32" font-family="Meiryo"><tspan x="-99.367" y="0">Google Maps</tspan></text>
   </g>
 </svg>
