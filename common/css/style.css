@@ -124,7 +124,7 @@
 
  .item_body:first-child {
  	width: 140px;
- 	z-index: 1005;
+ 	/* z-index: 1005; */
  }
 
  .item_body:last-child {
@@ -169,6 +169,7 @@
 
  .gr-tg-left-fix {
  	width: 140px;
+	height: 100vh;
  	text-align: center;
  	position: fixed;
  	left: 0;
@@ -777,7 +778,7 @@
  	width: 100%;
  	max-width: 415px;
  	position: fixed;
- 	left: -280px;
+ 	left: -415px;
  	top: 0px;
 	z-index: 1004;
  	padding: 25px;
