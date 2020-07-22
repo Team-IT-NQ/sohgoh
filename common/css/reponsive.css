@@ -326,7 +326,7 @@
     .gr-tg-me02, .gr-tg-me02 a:not(:first-child), .gr-tg-me03 {
         margin-top: 2.400vw;
     }
-    .gr-tg-t11-slider .owl-dots{
+    .gr-tg-t11-slider .owl-dots {
         bottom: 0;
     }
     .gr-tg-item-me03:not(:first-child) {
@@ -1300,6 +1300,10 @@
         align-items: stretch;
         align-content: stretch;
     }
+    .gr-tg-t11-slider .owl-dots button {
+        width: 2.667vw;
+        height: 2.667vw;
+    }
 }
 
 /* end 750 */
@@ -1340,10 +1344,6 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    /* .gr-tg-top-01 .owl-dots button {
-        width: 15px;
-        height: 18px;
-    } */
     .gr-tg-sub-title, .gr-tg-desc09 {
         font-size: 20px;
     }
