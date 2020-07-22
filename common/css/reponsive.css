@@ -1300,9 +1300,14 @@
         align-items: stretch;
         align-content: stretch;
     }
-    .gr-tg-t11-slider .owl-dots button {
+    .gr-tg-t11-slider .owl-dots button,
+.gr-tg-t06row .owl-dots button {
         width: 2.667vw;
         height: 2.667vw;
+        padding: 0;
+        border-width: 1px;
+        outline: none;
+        resize: none;
     }
 }
 

@@ -36,6 +36,7 @@
             <li><a href=""><img class="w-icon-me06" src="common/img/icon-me06.svg" alt="English Page"><span>English Page</span></a></li>
           </ul>
         </div>
+        
       </div>
       <div class="item_body">
         <span class="gr-tg-bg-op-active"></span>
@@ -893,9 +894,8 @@
         var owl = $('#owl11');
         owl.owlCarousel({
           loop:true,
-          
           margin: 55,
-          autoplay:false,
+          autoplay:true,
           autoplayTimeout:2500,
           responsiveClass:true,
           animateOut: 'fadeOut',
@@ -925,7 +925,7 @@
               },
               1200:{
                   items:3.758,
-                  center:false,
+                  center:true,
               }
           }
         });
