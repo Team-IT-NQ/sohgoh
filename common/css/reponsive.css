@@ -109,9 +109,6 @@
     .gr-tg-humbarger a {
         line-height: 100%;
     }
-    .gr-tg-humbarger img {
-        width: 24px;
-    }
     .gr-tg-logo {
         padding-right: 4vw;
     }
@@ -302,9 +299,6 @@
     .gr-tg-humbarger a {
         line-height: 100%;
     }
-    .gr-tg-humbarger img {
-        width: 24px;
-    }
     .gr-tg-logo {
         padding-right: 4vw;
     }
@@ -473,6 +467,567 @@
     .gr-tg-scroll {
         height: 10.667vw;
     }
+    section.gr-tg-top-01 {
+        padding-top: 12.667vw;
+    }
+    #owl01.owl-carousel .owl-stage-outer {
+        padding-top: 0;
+        padding-bottom: 14.667vw;
+    }
+    .gr-tg-top-01 .owl-dots {
+        bottom: 0;
+    }
+    #owl01 .owl-item.center .item-01 {
+        height: 72vw !important;
+    }
+    #owl01 .owl-item.active.center, #owl01 .owl-item.active.center .slick-list, #owl01 .owl-item.active.center .slick-list .slick-track, #owl01 .owl-item.active.center .slick-list .slick-track .item-01 {
+        max-width: 72vw !important;
+    }
+    .gr-tg-top-01 .owl-nav {
+        top: calc(72vw / 2 - 17px);
+    }
+    #owl01.owl-carousel .owl-stage {
+        padding-left: 9px;
+    }
+    .gr-tg-top-01 .owl-dots button:not(:first-child) {
+        margin-left: 3.467vw;
+    }
+    .gr-tg-top-02 {
+        margin-top: 20vw;
+        padding-bottom: 9.067vw;
+        position: relative;
+        background-color: #F2F2F2;
+    }
+    .gr-tg-top-02::before {
+        content: "";
+        width: 100%;
+        height: 7.333vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-bottom: 7.333vw solid transparent;
+        border-left: 100vw solid #ffffff;
+    }
+    .gr-tg-top-02::after {
+        content: "";
+        width: 100%;
+        height: 6vw;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-top: 6vw solid transparent;
+        border-right: 100vw solid #ffffff;
+    }
+    .gr-tg-sub-title, .gr-tg-desc09 {
+        margin-top: 6.133vw;
+    }
+    .gr-tg-notice {
+        margin-top: 6vw;
+    }
+    .gr-tg-notice ul {
+        padding-top: 3.733vw;
+        padding-bottom: 2.667vw;
+    }
+    .gr-tg-notice li .item:nth-child(2) {
+        padding: 4vw 0 0 0;
+    }
+    .gr-tg-list-notice {
+        padding-top: 3.467vw;
+    }
+    .gr-tg-notice li .item:nth-child(2) a {
+        line-height: 150%;
+        padding: 0;
+    }
+    .gr-tg-sub-title, .gr-tg-desc09 {
+        font-size: 5.600vw;
+    }
+    .gr-tg-top-02>div {
+        top: -2.267vw;
+    }
+    .gr-tg-notice li .item:first-child {
+        width: 50%;
+    }
+    .gr-tg-notice li .item {
+        font-size: 3.733vw;
+    }
+    .gr-tg-notice li .item:last-child a {
+        font-size: 3.200vw;
+        height: 6.267vw;
+        border-radius: 60px;
+    }
+    .gr-tg-notice li .item:last-child {
+        width: 23.733vw;
+    }
+    .gr-tg-hum {
+        margin-bottom: 7.733vw;
+    }
+    .gr-tg-hum img {
+        width: 16.267vw;
+        height: 9.600vw;
+    }
+    .gr-tg-title03 {
+        font-size: 5.600vw;
+        letter-spacing: 1px;
+    }
+    section.gr-tg-top-03 {
+        padding-top: 12.267vw;
+    }
+    .gr-tg-tab>ul>li a {
+        font-size: 3.200vw;
+        padding: 3.733vw 0;
+    }
+    .gr-tg-tab>ul {
+        margin-top: 11.733vw;
+    }
+    .gr-tg-tab-gen ul {
+        max-width: 590px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .gr-tg-tab-gen ul li, .gr-tg-tab-gen ul.gird-3-item li {
+        width: 50%;
+        padding: 0 2vw;
+        margin-bottom: 11.333vw;
+    }
+    .gr-tg-tab-gen ul.gird-3-item li:last-child {
+        width: 100%;
+    }
+    .gr-tg-tab-gen ul li:not(:first-child) {
+        margin-left: 0;
+    }
+    .gr-tg-desct03 {
+        font-size: 3.733vw;
+        height: auto;
+        display: block;
+        margin-top: 3.200vw;
+    }
+    .tab1-01 {
+        width: 26.667vw;
+        height: 21.333vw;
+    }
+    .tab1-02 {
+        width: 23.067vw;
+        height: 21.200vw;
+    }
+    .tab1-03 {
+        width: 17.600vw;
+        height: 20vw;
+    }
+    .tab1-04 {
+        width: 26.400vw;
+        height: 17.333vw;
+    }
+    .tab1-05 {
+        width: 21.200vw;
+        height: 21.200vw;
+    }
+    .tab1-06 {
+        width: 21.200vw;
+        height: 21.200vw;
+    }
+    .tab1-07 {
+        width: 21.600vw;
+        height: 13.333vw;
+    }
+    .tab1-08 {
+        width: 26.667vw;
+        height: 16.533vw;
+    }
+    .gr-tg-thum03 {
+        height: 21.200vw;
+    }
+    .gr-tg-humbarger img {
+        width: 5.067vw;
+        height: 2.936vw;
+    }
+    .gr-tg-tab-gen {
+        padding-top: 10.267vw;
+    }
+    section.gr-tg-top-03 {
+        padding-bottom: 3px;
+    }
+    .tab2-01 {
+        width: 30.667vw;
+        height: 12vw;
+    }
+    .tab2-02 {
+        width: 24.533vw;
+        height: 11.067vw;
+    }
+    .tab2-03 {
+        width: 22vw;
+        height: 11.067vw;
+    }
+    .tab2-04 {
+        width: 14.667vw;
+        height: 9.333vw;
+    }
+    .tab2-05 {
+        width: 20vw;
+        height: 12vw;
+    }
+    .tab2-06 {
+        width: 41.333vw;
+        height: 12.933vw;
+    }
+    .tab2-07 {
+        width: 23.200vw;
+        height: 9.333vw;
+    }
+    .tab3-01 {
+        width: 12.667vw;
+        height: 13.333vw;
+    }
+    .tab3-02 {
+        width: 16.667vw;
+        height: 13.333vw;
+    }
+    .tab3-03 {
+        width: 9.600vw;
+        height: 13.333vw;
+    }
+    .tab3-04 {
+        width: 11.333vw;
+        height: 9.067vw;
+    }
+    .tab3-05 {
+        width: 17.333vw;
+        height: 13.333vw;
+    }
+    .tab3-06 {
+        width: 13.333vw;
+        height: 15.200vw;
+    }
+    .tab3-07 {
+        width: 15.467vw;
+        height: 11.333vw;
+    }
+    .tab3-08 {
+        width: 23.067vw;
+        height: 8.933vw;
+    }
+    .gr-tg-top-04 {
+        padding-top: 22vw;
+        padding-bottom: 24.933vw;
+        background-color: #edc732;
+        position: relative;
+    }
+    .gr-tg-top-04::before {
+        content: "";
+        width: 100%;
+        height: 7.333vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-bottom: 7.333vw solid transparent;
+        border-right: 100vw solid #ffffff;
+    }
+    .gr-tg-top-04::after {
+        content: "";
+        width: 100%;
+        height: 6vw;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-top: 6vw solid transparent;
+        border-left: 100vw solid #ffffff;
+    }
+    .w-icon-28 {
+        width: 13.333vw;
+        height: 14.667vw;
+    }
+    .gr-tg-title p, .gr-tg-tt09 p {
+        font-size: 3.733vw;
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 178%;
+    }
+    .gr-tg-title p br, .gr-tg-tt09 p br {
+        display: none;
+    }
+    .gr-tg-t04 ul {
+        flex-direction: column;
+        max-width: 485px;
+        margin: 0 auto;
+    }
+    .gr-tg-t04 li {
+        width: 100%;
+        height: 64.667vw;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        padding-bottom: 9.600vw;
+    }
+    .gr-tg-txt04 {
+        margin-top: 9.600vw;
+    }
+    .gr-tg-t04 li:not(:first-child) {
+        margin-left: 0;
+        margin-top: 11.467vw;
+    }
+    .gr-tg-txt04 {
+        font-size: 4.267vw;
+    }
+    .w-icon-29 {
+        width: 43.067vw;
+        height: 21.467vw;
+    }
+    .w-icon-30 {
+        width: 30vw;
+        height: 18.667vw;
+    }
+    .w-icon-31 {
+        width: 52.133vw;
+        height: 26.400vw;
+    }
+    .gr-tg-t04 {
+        padding-top: 10.667vw;
+    }
+    .w-icon-32 {
+        width: 18.133vw;
+        height: 14.667vw;
+    }
+    .gr-tg-top-05 {
+        padding-top: 14.667vw;
+    }
+    .gr-tg-bg05 {
+        margin: 0 auto;
+        width: 28.267vw;
+        height: 28.267vw;
+    }
+    .w-t05-01 {
+        width: 22vw;
+        height: 15.067vw;
+    }
+    .w-t05-02 {
+        width: 16.667vw;
+        height: 12.933vw;
+    }
+    .gr-tg-wrap05 ul li:not(:first-child) {
+        margin-left: 8.800vw;
+    }
+    .gr-tg-tt05-01 {
+        font-size: 3.733vw;
+        margin-bottom: 4.267vw;
+    }
+    .gr-tg-wrap05 {
+        margin-top: 6.667vw;
+    }
+    .gr-tg-wrap05 ul {
+        margin-bottom: 6.667vw;
+    }
+    .gr-tg-top-06 {
+        margin-top: 15.733vw;
+    }
+    .gr-tg-btn10 a {
+        height: 21.333vw;
+        font-size: 3.733vw;
+        letter-spacing: 1px;
+        max-width: 689px;
+    }
+    .gr-tg-btn10 a span {
+        padding-right: 0;
+        padding-bottom: 8.667vw;
+        background-image: url(../img/icon-21.svg) !important;
+        background-position: center bottom;
+        background-size: 2.667vw;
+    }
+    .t07-1 {
+        width: 16.400vw;
+        height: 10.800vw;
+    }
+    .t07-2 {
+        width: 10.800vw;
+        height: 11.867vw;
+    }
+    .t07-3 {
+        width: 11.867vw;
+        height: 11.200vw;
+    }
+    .t07-4 {
+        width: 11.467vw;
+        height: 14.933vw;
+    }
+    .t07-5 {
+        width: 8.533vw;
+        height: 11.067vw;
+    }
+    .gr-tg-jp07 {
+        line-height: 160%;
+        font-size: 2.667vw;
+        letter-spacing: 1px;
+        margin-top: 1.200vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        height: 8.400vw;
+    }
+    .gr-tg-wt07 li, .gr-tg-wt07 ul.last li {
+        padding: 2.667vw 2vw;
+    }
+    .last .minh126 {
+        height: 11.200vw;
+    }
+    .minh126 {
+        height: 14.933vw;
+    }
+    .gr-tg-wt07 li:not(:first-child) {
+        margin-left: 2.667vw;
+    }
+    .gr-tg-wt07 ul.last {
+        margin-top: 2.667vw;
+    }
+    .gr-tg-top-08 {
+        padding-top: 29.333vw;
+    }
+    .gr-tg-wt07 {
+        margin-top: 8vw;
+    }
+    .w-icon-22, .w-icon-25 {
+        width: 18.267vw;
+        height: 14.667vw;
+    }
+    .gr-tg-top-08 .gird-1000 {
+        padding-right: 3.333vw;
+        padding-bottom: 3.333vw;
+    }
+    .gr-tg-top-08>div::before {
+        width: 3.333vw;
+    }
+    .gr-tg-top-08>div::after {
+        height: 3.333vw;
+    }
+    .gr-tg-top-08 .gr-tg-wrap-t08 {
+        padding: 6.933vw 4vw;
+    }
+    .gr-tg-top-08 .gr-tg-tt09 p {
+        margin-top: 6.933vw;
+    }
+    .gr-tg-subt08-1 {
+        margin: 4vw auto 0 auto;
+        max-width: 450px;
+    }
+    .gr-tg-subt08-1>div {
+        font-size: 3.733vw;
+    }
+    .gr-tg-subt08-1>div:not(:first-child)::before {
+        height: 19.200vw;
+    }
+    .gr-tg-subt08-1>div:not(:first-child) {
+        padding-left: 4vw;
+        margin-left: 4vw;
+    }
+    .w-icon-23, .w-icon-24 {
+        width: 8vw;
+        height: 8vw;
+    }
+    .gr-tg-subt08-2 .boxs {
+        font-size: 3.733vw;
+        letter-spacing: 0;
+    }
+    .gr-tg-subt08-2 .boxs:not(:first-child) {
+        margin-left: 9.600vw;
+    }
+    .gr-tg-subt08-2 {
+        margin-top: 4.667vw;
+    }
+    .gr-tg-subt08-3 {
+        margin-top: 4.267vw;
+        max-width: 600px;
+        flex-direction: column;
+    }
+    .gr-tg-top-08 .gr-tg-wrap-t08 .gr-tg-tt09 {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .item-calendar {
+        width: 100%;
+        height: 336px;
+    }
+    .item-calendar:not(:first-child) {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .gr-tg-top-09 {
+        padding-top: 17.200vw;
+        padding-bottom: 13.7vw;
+    }
+    .w-icon-20 {
+        width: 13.867vw;
+        height: 14.667vw;
+    }
+    .gr-tg-top-09 .gr-tg-desc10 ul,.gr-tg-desc10 ul {
+        flex-direction: column;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .gr-tg-desc10 li {
+        width: 100%;
+        background-size: cover;
+    }
+    .gr-tg-desc10 li:not(:first-child) {
+        margin-left: 0;
+        margin-top: 8.400vw;
+    }
+    .gr-tg-top-09 ul .item ,.gr-tg-top-10 .gr-tg-desc10 li{
+        height: 360px;
+    }
+    .gr-tg-desc10 li p {
+        color: #333333;
+        padding-bottom: 3.9vw;
+        font-size: 3.733vw;
+    }
+    .gr-tg-desc10 {
+        padding-top: 5.067vw;
+    }
+    .gr-tg-btn10 {
+        margin-top: 11.067vw;
+    }
+    .gr-tg-top-10 {
+        background-color: #003385;
+        position: relative;
+    }
+    .gr-tg-top-10::before {
+        content: "";
+        width: 100%;
+        height: 7.333vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-bottom: 7.333vw solid transparent;
+        border-right: 100vw solid #ffffff;
+    }
+    .gr-tg-top-10::after {
+        content: "";
+        width: 100%;
+        height: 6vw;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-top: 6vw solid transparent;
+        border-left: 100vw solid #ffffff;
+    }
+    .gr-tg-top-10 {
+        padding-top: 11.200vw;
+        padding-bottom: 14vw;
+        margin-bottom: 19.333vw;
+    }
+
+    .gr-tg-top-10 .gird-1000{
+        padding-top: 7.333vw;
+        padding-bottom: 7.333vw;
+        padding-left: 6.933vw;
+        padding-right: 6.933vw;
+    }
+
+    .gr-tg-top-10 .gr-tg-btn10{
+        margin-top: 6.933vw;
+    }
+
+    .gr-tg-top-10 .gr-tg-btn10 a span{
+            background-image: url(../img/icon-19.svg) !important;
+    }
 }
 
 /* end 750 */
@@ -498,5 +1053,45 @@
     .gird-1000, .gird-1044, .gird-1140, .gr-tg-top-02, .gr-tg-top-08, .gr-tg-top-10 {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .gr-tg-top-01 .owl-dots button {
+        width: 15px;
+        height: 18px;
+    }
+    .gr-tg-sub-title, .gr-tg-desc09 {
+        font-size: 20px;
+    }
+    .gr-tg-hum {
+        margin-bottom: 15px;
+    }
+    .gr-tg-tab>ul>li.active a span {
+        padding: 5px 6px;
+        background-size: 6px;
+    }
+    .gr-tg-humbarger img {
+        width: 24px;
+        height: 20px;
+    }
+    .gr-tg-t04 li:not(:first-child) {
+        margin-top: 35px;
+    }
+    .gr-tg-t04 {
+        padding-top: 25px;
+    }
+    .gr-tg-top-08 {
+        padding-top: 50px;
+    }
+    .w-icon-20 {
+        width: 60px;
+        height: 60px;
+    }
+    .gr-tg-desc10 li p {
+        font-size: 16px;
+    }
+    .gr-tg-top-09 ul .item, .gr-tg-top-10 .gr-tg-desc10 li {
+        height: 280px;
+    }
+    .gr-tg-scroll {
+        height: 50px;
     }
 }
