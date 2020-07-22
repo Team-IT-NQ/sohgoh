@@ -2309,7 +2309,21 @@
  /* END TOP */
 
  @media screen and (max-width:975px) {
- 	#owl01 .owl-item:not(.center)::after {
- 		content: none;
- 	}
- }
+	#owl01 .owl-item:not(.center)::after{
+		content: none;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.gr-tg-top-01 .owl-nav button {
+		width: 2.608vw;
+		height: 4.302vw;
+		background-size: contain;
+	}
+	.gr-tg-top-01 .owl-dots button {
+		width: 2.608vw;
+		height: 2.608vw;
+		padding: 0;
+		border: 0.391vw solid #003385;
+	}
+}
