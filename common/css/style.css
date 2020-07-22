@@ -2314,6 +2314,10 @@
 	#owl01 .owl-item:not(.center)::after{
 		content: none;
 	}
+	.gr-tg-top-06{
+		background-image: url(../img/t06-01_sp.png);
+		background-size: auto 96%;
+	}
 }
 
 @media screen and (max-width:767px) {
@@ -2327,5 +2331,9 @@
 		height: 2.608vw;
 		padding: 0;
 		border: 1px solid #003385;
+	}
+	.gird-1000, .gird-1044 {
+		padding-left: 2.608vw;
+		padding-right: 2.608vw;
 	}
 }
