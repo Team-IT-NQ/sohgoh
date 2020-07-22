@@ -53,6 +53,10 @@
 /* end 1000 */
 
 @media screen and (max-width:975px) {
+    .gr-tg-left-fix {
+        width: 18.667vw;
+        height: 10.667vw;
+    }
     .gr-tg-top-head {
         z-index: 1004;
     }
@@ -1300,8 +1304,7 @@
         align-items: stretch;
         align-content: stretch;
     }
-    .gr-tg-t11-slider .owl-dots button,
-.gr-tg-t06row .owl-dots button {
+    .gr-tg-t11-slider .owl-dots button, .gr-tg-t06row .owl-dots button {
         width: 2.667vw;
         height: 2.667vw;
         padding: 0;
