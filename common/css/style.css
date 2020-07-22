@@ -1496,13 +1496,32 @@
  	margin-bottom: 78px;
  }
 
+ .gr-tg-t06row .owl-item>div {
+ 	height: 100%;
+ }
+
+ .gr-tg-t06row .owl-stage {
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: nowrap;
+ 	justify-content: flex-start;
+ 	align-items: stretch;
+ 	align-content: stretch;
+ }
+
  .gr-tg-t06row .boxs06 {
  	background-color: #ffffff;
- 	width: 33.33%;
- 	min-height: 500px;
+ 	width: 100%;
  	border-radius: 16px;
  	text-align: center;
- 	padding: 23px 20px;
+ 	padding: 20px;
+ 	height: 100%;
+ }
+
+ .gr-tg-t06row .boxs06 img {
+ 	width: auto;
+ 	display: block;
+ 	margin: 0 auto;
  }
 
  .gr-tg-t06row .boxs06 h3 {
@@ -1581,11 +1600,11 @@
  	justify-content: center;
  }
 
- .boxs06:last-child .gr-tg-t06-co01 {
+ .gr-tg-t06-co01.last {
  	padding-top: 20px;
  }
 
- .boxs06:last-child .gr-tg-wt06-co1 {
+ .gr-tg-wt06-co1.last {
  	padding-top: 26px;
  	background-image: url(../img/icon-38.png);
  }
@@ -1599,6 +1618,16 @@
  	background-image: url(../img/icon-37.png);
  	background-position: center top 5px;
  	background-repeat: no-repeat;
+ }
+
+ 
+
+ .gr-tg-t06row .owl-dots button:not(:first-child) {
+ 	margin-left: 27px;
+ }
+
+ .gr-tg-wt06-co1.big {
+ 	background-image: url(../img/icon-37.png) !important;
  }
 
  .gr-tg-wt06-co1 p {
@@ -1928,7 +1957,15 @@
  	width: 116px;
  	height: 72px;
  }
-	.w-icon-15{width: 67px;height: 67px;}
+
+ .w-icon-15 {
+ 	width: 67px;
+ 	height: 67px;
+ }
+
+ .owl-nav.disabled {
+ 	display: none !important;
+ }
 
  .gr-tg-desc10 li:not(:first-child) {
  	margin-left: 32px;
