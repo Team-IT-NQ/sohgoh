@@ -181,7 +181,7 @@
  	position: fixed;
  	right: 0;
  	top: 0;
- 	z-index: 1006;
+ 	z-index: 999;
  	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
  }
 
@@ -779,7 +779,7 @@
  	position: fixed;
  	left: -280px;
  	top: 0px;
- 	z-index: 1000;
+	z-index: 1004;
  	padding: 25px;
  	padding-right: 10px;
  	background-color: #F2F2F2;
@@ -2325,6 +2325,6 @@
 		width: 2.608vw;
 		height: 2.608vw;
 		padding: 0;
-		border: 0.391vw solid #003385;
+		border: 1px solid #003385;
 	}
 }
