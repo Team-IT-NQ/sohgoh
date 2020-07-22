@@ -8,16 +8,7 @@ $(document).ready(function() {
         $(this).addClass('active');
     });
 
-    $('.gr-tg-humbarger').click(function(){
-        $(this).toggleClass('active');
-        $('.gr-tg-menuclick,.gr-tg-bg-op-active').toggleClass('active');
-    }); 
-   
-
-    $('.gr-tg-bg-op-active').click(function(){
-        $(this).removeClass('active');
-        $('.gr-tg-menuclick,.gr-tg-humbarger').removeClass('active');
-    });
+    
 
     var topBtn = $('.gr-tg-scroll'); 
     topBtn.click(function() {
