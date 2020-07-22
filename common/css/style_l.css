@@ -158,3 +158,25 @@ a.a_btn01.icon01::after{
 a.a_btn01:hover{
     opacity: 0.8;
 }
+
+#lic_sec02{
+    padding-top: 90px;
+}
+
+#lic_sec02 .title_style01{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 166%;
+    color: #C1272D;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#lic_sec02 .txt_out{
+    font-size: 16px;
+    line-height: 156%;
+    color: #333333;
+    text-align: center;
+}
