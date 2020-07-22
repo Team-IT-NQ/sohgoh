@@ -22,11 +22,10 @@ $(document).ready(function() {
     });
 
     $('.gr-tg-humbarger').click(function(){
-        console.log('123');
         $(this).toggleClass('active');
         $('.gr-tg-menuclick,.gr-tg-bg-op-active').toggleClass('active');
     }); 
-
+   
 
     $('.gr-tg-bg-op-active').click(function(){
         $(this).removeClass('active');

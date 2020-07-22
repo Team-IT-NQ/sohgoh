@@ -53,6 +53,12 @@
 /* end 1000 */
 
 @media screen and (max-width:975px) {
+    .gr-tg-top-head {
+        z-index: 1004;
+    }
+    .gr-tg-menuclick {
+        z-index: 10009;
+    }
     .gr-tg-t06row .owl-dots {
         text-align: center;
         margin-top: 10.267vw;
@@ -317,6 +323,15 @@
 }
 
 @media screen and (max-width:750px) {
+    .gr-tg-me02, .gr-tg-me02 a:not(:first-child), .gr-tg-me03 {
+        margin-top: 2.400vw;
+    }
+    .gr-tg-t11-slider .owl-dots{
+        bottom: 0;
+    }
+    .gr-tg-item-me03:not(:first-child) {
+        margin-left: 2.400vw;
+    }
     .inner-content-div {
         padding-right: 2.667vw;
     }
@@ -420,10 +435,14 @@
         height: 17.333vw;
         padding-left: 5.333vw;
         padding-right: 4vw;
-        border-radius: 16px;
+        border-radius: 2.133vw;
         background-image: url(../img/icon-59.svg);
         background-position: right 4vw center;
         background-size: 2.667vw;
+        -webkit-border-radius: 2.133vw;
+        -moz-border-radius: 2.133vw;
+        -ms-border-radius: 2.133vw;
+        -o-border-radius: 2.133vw;
     }
     .gr-tg-item-me03>a>span {
         display: none;
@@ -445,10 +464,14 @@
     .gr-tg-item-me03:last-child a {
         height: 17.02vw;
         font-size: 0 !important;
-        border-radius: 16px;
+        border-radius: 2.133vw;
         background-image: url(../img/icon-me-14.svg), url(../img/icon-59.svg);
         background-position: left 10.667vw center, right 4vw center;
         background-size: 8.533vw, 2.667vw;
+        -webkit-border-radius: 2.133vw;
+        -moz-border-radius: 2.133vw;
+        -ms-border-radius: 2.133vw;
+        -o-border-radius: 2.133vw;
     }
     .gr-tg-item-me03:last-child a:nth-child(2) {
         background-image: url(../img/icon-me-15.svg), url(../img/icon-59.svg);
@@ -592,6 +615,9 @@
         justify-content: flex-start;
         align-items: stretch;
         align-content: stretch;
+    }
+    .gr-tg-item-me03 a:not(:first-child) {
+        padding-top: 3px;
     }
     .gr-tg-info {
         order: 0;
@@ -1266,6 +1292,14 @@
         height: 13.333vw;
         bottom: calc(-13.333vw / 2);
     }
+    .gr-tg-item-me03:not(:first-child) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
 }
 
 /* end 750 */
@@ -1306,10 +1340,10 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    .gr-tg-top-01 .owl-dots button {
+    /* .gr-tg-top-01 .owl-dots button {
         width: 15px;
         height: 18px;
-    }
+    } */
     .gr-tg-sub-title, .gr-tg-desc09 {
         font-size: 20px;
     }
