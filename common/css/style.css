@@ -2239,3 +2239,17 @@
 		content: none;
 	}
 }
+
+@media screen and (max-width:767px) {
+	.gr-tg-top-01 .owl-nav button {
+		width: 2.608vw;
+		height: 4.302vw;
+		background-size: contain;
+	}
+	.gr-tg-top-01 .owl-dots button {
+		width: 2.608vw;
+		height: 2.608vw;
+		padding: 0;
+		border: 0.391vw solid #003385;
+	}
+}
