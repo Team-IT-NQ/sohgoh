@@ -2041,6 +2041,7 @@
  .gr-tg-desc10 li {
  	width: 33.33%;
  	border-radius: 16px;
+	background-size: cover;
  	background-position: center;
  	background-repeat: no-repeat;
  }
