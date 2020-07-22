@@ -154,3 +154,7 @@ a.a_btn01.icon01::after{
     background-position: center center;
     margin-left: 6px;
 }
+
+a.a_btn01:hover{
+    opacity: 0.8;
+}
