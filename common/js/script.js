@@ -16,4 +16,17 @@ $(document).ready(function() {
         return false;
     });
 
+    if($(document).width()<768){
+        $(".all_item01 .item").each(function(i){
+            if($(".div_hover",this).find(".txt").html() != null){
+                $div_hove = $(".div_hover",this).html();
+                $(".div_hover",this).remove();
+                $(this).before("<div class='div_hover'>"+$div_hove+"</div>");
+            }else{
+                $(".div_hover",this).remove();
+            }
+        })
+    }
+
+
 });
