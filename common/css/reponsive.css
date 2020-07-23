@@ -334,7 +334,7 @@
 }
 
 @media screen and (max-width:750px) {
-    .gird-1140, .gr-tg-top-02, .gr-tg-top-08, .gr-tg-top-10 {
+    .gird-1140, .gr-tg-top-02, .gr-tg-top-08, .gr-tg-top-10,.gird-1000 {
         padding-right: 4vw;
         padding-left: 4vw;
     }
