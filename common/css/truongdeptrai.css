@@ -337,6 +337,9 @@ table.pItem01 tr td:first-child{
     width: 60px;
     font-weight: bold;
 }
+table.pItem01 tr td:last-child{
+    padding-right: 40px;
+}
 table.pItem01.tbCt tr td:first-child{
     width: 90px;
 }
@@ -349,6 +352,7 @@ table.pItem01.tbCt tr td:first-child{
     color: #333333;
     padding-left: 60px;
     margin-bottom: 38px;
+    padding-right: 50px;
 }
 .pageItem:last-child{
     margin-bottom: 150px;
