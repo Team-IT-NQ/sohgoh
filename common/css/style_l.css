@@ -206,6 +206,7 @@ a.a_btn01:hover{
     padding-bottom: 20px;
     position: relative;
     z-index: 1;
+    margin-bottom: 30px;
 }
 
 .all_item01 .item.icon_red:before {
@@ -245,7 +246,7 @@ a.a_btn01:hover{
     font-size: 18px;
     font-weight: bold;
     letter-spacing:1px;
-    line-height: 120%;
+    line-height: 140%;
     white-space: nowrap;
     color: #333333;
 }
@@ -270,13 +271,13 @@ a.a_btn01:hover{
     letter-spacing:1px;
     color: #333333;
     padding-top: 12px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .all_item01 .item .div_item03{
     padding-right: 30px;
     padding-left: 5px;
-    margin-top: 5px;
+    margin-top: 13px;
 }
 
 .all_item01 .item .div_item03 .txt01{
