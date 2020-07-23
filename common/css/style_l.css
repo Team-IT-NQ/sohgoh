@@ -1056,70 +1056,86 @@ a.a_btn01:hover {
         padding-left: 10px;
         margin-top: 30px;
     }
+
     .all_item01 .item .div_item02 .txt {
         font-size: 26px;
         padding-top: 23px;
     }
+
     .all_item01 .item:hover .icon_tag .icon_add.icon_blue {
         display: flex;
     }
+
     .ft_page_all .div_left {
         width: 100%;
     }
-    .ft_page_all .div_left .div_img img{
+
+    .ft_page_all .div_left .div_img img {
         width: 150px;
         display: block;
         margin: 0 auto;
     }
+
     .ft_page_all .div_left .title {
         font-size: 42px;
         width: 100%;
         text-align: center;
         margin-top: 45px;
     }
+
     .ft_page_all .div_left .txt ul li {
         font-size: 28px;
         padding-left: 0;
         line-height: 144%;
         text-align: center;
     }
+
     .ft_page_all .div_left .txt ul li:before {
         left: unset;
         top: unset;
         position: relative;
     }
+
     .ft_page_all .div_left .txt {
         margin-top: 40px;
     }
+
     .ft_page_all .div_right {
         width: 100%;
         margin-top: 35px;
     }
+
     .ft_page_all .div_right .btn_all {
         min-height: 330px;
     }
+
     .ft_page_all .div_right .btn_all .div_df img {
         height: 198px;
     }
+
     .ft_page_all .div_right .btn_all .div_df span {
         font-size: 28px;
         margin-top: 25px;
     }
+
     .ft_page_all .div_btn {
         margin-top: 100px;
     }
+
     .ft_page_all .div_btn .btn_all {
         max-width: none;
         margin-bottom: 25px;
         height: 160px;
         font-size: 28px;
     }
+
     .ft_page_all .div_btn .btn_all img {
         display: block;
         height: 39px;
         margin: 0 auto;
         margin-top: 30px;
     }
+
     .ft_page_all {
         margin-bottom: 170px;
     }
@@ -1182,7 +1198,7 @@ a.a_btn01:hover {
         margin-top: 2.667vw;
         border: 0.267vw solid #C1272D;
         max-width: 65.333vw;
-}
+    }
 
     a.a_btn01.icon01::after {
         width: 3.600vw;
@@ -1217,7 +1233,7 @@ a.a_btn01:hover {
         padding-bottom: 3.333vw;
         margin-bottom: 14.667vw;
         max-width: 78.933vw;
-}
+    }
 
     .all_item01 .item .div_hover {
         top: -2.667vw;
@@ -1229,169 +1245,144 @@ a.a_btn01:hover {
 
     .all_item01 .div_hover {
         width: 100vw;
-        margin-left: -20px;
-        margin-right: -20px;
-        text-align: center;
-        font-size: 28px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        line-height: 160%;
-        color: #C1272D;
-        padding-top: 75px;
-        padding-bottom: 190px;
-        margin-bottom: -125px;
+        margin-left: -4vw;
+        margin-right: -4vw;
+        font-size: 3.733vw;
+        padding-top: 10vw;
+        padding-bottom: 25.333vw;
+        margin-bottom: -16.667vw;
     }
 
     .all_item01 .item .icon_tag .icon_add {
-        width: 98px;
-        height: 98px;
-        margin-bottom: 24px;
-        transform: none;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
+        width: 13.067vw;
+        height: 13.067vw;
+        margin-bottom: 3.200vw;
     }
 
     .all_item01 .item .icon_tag {
-        top: -27px;
-        left: -40px;
-    }
-
-    .all_item01 .div_hover img {
-        display: none;
+        top: -3.600vw;
+        left: -5.333vw;
     }
 
     .all_item01 .item .icon_tag .icon_add span {
-        font-size: 26px;
-        font-weight: bold;
-        letter-spacing: 1px
+        font-size: 3.467vw;
     }
 
     .all_item01 .item .div_item01 {
-        padding-left: 80px;
-        padding-right: 10px;
+        padding-left: 10.667vw;
+        padding-right: 1.333vw;
     }
 
     .all_item01 .item .img {
-        padding-right: 30px;
+        padding-right: 4vw;
     }
 
     .all_item01 .item .img img {
-        width: 178px;
-        max-height: 147px;
+        width: 23.733vw;
+        max-height: 19.600vw;
     }
 
     .all_item01 .item .div_item01 .text .title {
-        font-size: 35px;
+        font-size: 4.667vw;
     }
 
     .all_item01 .item .div_item01 .text .txt {
-        font-size: 26px;
+        font-size: 3.467vw;
     }
 
     .all_item01 .item .div_item01 .text {
-        padding-top: 20px;
+        padding-top: 2.667vw;
     }
 
     .all_item01 .item .div_item03 .spanall {
-        min-width: 355px;
+        min-width: 47.333vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .sp_01 {
-        margin-right: 30px;
-        font-size: 26px;
+        margin-right: 4vw;
+        font-size: 3.467vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .sp_02 {
-        margin-right: 30px;
-        font-size: 26px;
+        margin-right: 4vw;
+        font-size: 3.467vw;
     }
 
     .all_item01 .item .div_item03 .txt01 {
-        font-size: 58px;
+        font-size: 7.733vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .txt02 {
-        font-size: 26px;
-        margin-top: 5px;
+        font-size: 3.467vw;
+        margin-top: 0.667vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .txt02 .sp_01 {
-        font-size: 19px;
-        margin-right: 10px;
+        font-size: 2.533vw;
+        margin-right: 1.333vw;
     }
 
     .all_item01 .item .div_item03 {
-        padding-right: 10px;
-        padding-left: 10px;
-        margin-top: 30px;
+        padding-right: 1.333vw;
+        padding-left: 1.333vw;
+        margin-top: 4vw;
     }
+
     .all_item01 .item .div_item02 .txt {
-        font-size: 26px;
-        padding-top: 23px;
+        font-size: 3.467vw;
+        padding-top: 3.067vw;
     }
-    .all_item01 .item:hover .icon_tag .icon_add.icon_blue {
-        display: flex;
+
+    .ft_page_all .div_left .div_img img {
+        width: 20vw;
     }
-    .ft_page_all .div_left {
-        width: 100%;
-    }
-    .ft_page_all .div_left .div_img img{
-        width: 150px;
-        display: block;
-        margin: 0 auto;
-    }
+
     .ft_page_all .div_left .title {
-        font-size: 42px;
-        width: 100%;
-        text-align: center;
-        margin-top: 45px;
+        font-size: 5.600vw;
+        margin-top: 6vw;
     }
+
     .ft_page_all .div_left .txt ul li {
-        font-size: 28px;
-        padding-left: 0;
-        line-height: 144%;
-        text-align: center;
+        font-size: 3.733vw;
     }
-    .ft_page_all .div_left .txt ul li:before {
-        left: unset;
-        top: unset;
-        position: relative;
-    }
+
     .ft_page_all .div_left .txt {
-        margin-top: 40px;
+        margin-top: 5.333vw;
     }
+
     .ft_page_all .div_right {
-        width: 100%;
-        margin-top: 35px;
+        margin-top: 4.667vw;
     }
+
     .ft_page_all .div_right .btn_all {
-        min-height: 330px;
+        min-height: 44vw;
     }
+
     .ft_page_all .div_right .btn_all .div_df img {
-        height: 198px;
+        height: 26.400vw;
     }
+
     .ft_page_all .div_right .btn_all .div_df span {
-        font-size: 28px;
-        margin-top: 25px;
+        font-size: 3.733vw;
+        margin-top: 3.333vw;
     }
+
     .ft_page_all .div_btn {
-        margin-top: 100px;
+        margin-top: 13.333vw;
     }
+
     .ft_page_all .div_btn .btn_all {
-        max-width: none;
-        margin-bottom: 25px;
-        height: 160px;
-        font-size: 28px;
+        margin-bottom: 3.333vw;
+        height: 21.333vw;
+        font-size: 3.733vw;
     }
+
     .ft_page_all .div_btn .btn_all img {
-        display: block;
-        height: 39px;
-        margin: 0 auto;
-        margin-top: 30px;
+        height: 5.200vw;
+        margin-top: 4vw;
     }
+
     .ft_page_all {
-        margin-bottom: 170px;
+        margin-bottom: 22.667vw;
     }
 }
