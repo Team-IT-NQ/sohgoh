@@ -2426,16 +2426,48 @@
  	background-color: #003385;
  }
 
- .gr-tg-title-short-term-plan{
-	color: #333333;
-	font-weight: normal;
-	line-height: 166%;   
-	font-size: 18px;
-	letter-spacing: 0.5px;
-	display: block;
-	padding-bottom: 26px;
-	margin-bottom: 27px;
-	border-bottom:1px solid #707070;
+ .gr-tg-title-short-term-plan {
+ 	color: #333333;
+ 	font-weight: normal;
+ 	line-height: 166%;
+ 	font-size: 18px;
+ 	letter-spacing: 0.5px;
+ 	display: block;
+ 	padding-bottom: 26px;
+ 	margin-bottom: 27px;
+ 	border-bottom: 1px solid #707070;
+ }
+
+ .gr-tg-btn-short {
+ 	width: 100%;
+ 	margin-top: 42px;
+ 	height: 48px;
+ 	border-radius: 24px;
+ 	border: 1px solid #C1272D;
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: nowrap;
+ 	justify-content: center;
+ 	align-items: center;
+ 	align-content: stretch;
+ }
+
+ .gr-tg-btn-short:hover {
+ 	border: 1px solid #C1272D;
+ }
+
+ .gr-tg-btn-short span {
+ 	line-height: 100%;
+ 	letter-spacing: 1px;
+ 	font-size: 14px;
+ 	font-weight: normal;
+ 	color: #C1272D;
+ 	padding: 2px 0;
+ 	padding-right: 20px;
+ 	background-image: url(../img/btn_icon01.svg);
+ 	background-position: right center;
+ 	background-repeat: no-repeat;
+ 	background-size: 13.56px;
  }
 
  @media screen and (max-width:670px) {
