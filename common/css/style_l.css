@@ -187,6 +187,7 @@ a.a_btn01:hover{
     align-items: stretch;
     flex-wrap: wrap;
     margin-top: 75px;
+    margin-bottom: 95px;
 } 
 
 .all_item01 .item{
@@ -207,38 +208,57 @@ a.a_btn01:hover{
     margin-bottom: 30px;
 }
 
-.all_item01 .item.icon_red:before {
-    content: "定額";
+.all_item01 .item .img{
+    padding-right: 10px;
+}
+
+.all_item01 .item .icon_tag{
+    position:absolute;
+    top: -15px;
+    left: -20px;
+}
+
+.all_item01 .item .icon_tag .icon_add{
     width: 50px;
     height: 50px;
-    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    position: absolute;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: bold;
-    top: -15px;
-    left: -20px;
-    background-color: #C1272D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 12px;
 }
 
-.all_item01 .item .img{
-    padding-right: 10px;
+.all_item01 .item .icon_tag .icon_add.icon_red{
+    background-color: #C1272D;
+}
+
+.all_item01 .item .icon_tag .icon_add.icon_blue{
+    background-color: #003385;
+}
+
+.all_item01 .item .icon_tag .icon_add span{
+    line-height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing:1px;
+    color: #fff;
 }
 
 .all_item01 .item .div_item01{
     width: 100%;
     display: flex;
     justify-content:flex-start;
-    align-items: center;
-    padding-left: 30px;
+    align-items: flex-start;
+    padding-left: 35px;
+}
+
+.all_item01 .item .div_item01 .text{
+    padding-top: 6px;
 }
 
 .all_item01 .item .div_item01 .text .title{
@@ -271,6 +291,18 @@ a.a_btn01:hover{
     color: #333333;
     padding-top: 12px;
     /* padding-bottom: 10px; */
+}
+
+.all_item01 .item .div_item02 .txt .add_txt{
+    display: block;
+    font-weight: normal;
+}
+
+.all_item01 .item .div_item02 .txt .txt_plus{
+    display: block;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .all_item01 .item .div_item03{
@@ -334,4 +366,82 @@ a.a_btn01:hover{
 
 .all_item01 .item .div_item03 .txt01 .txt02 .price{
     color: #333333;
+}
+
+.ft_page_all{
+    display: flex;
+    justify-content:space-between;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+.ft_page_all .div_left{
+    width: 48%;
+}
+
+.ft_page_all .div_left .title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#C1272D;
+    letter-spacing:1px;
+    line-height: 110%;
+    margin-top: 20px;
+}
+
+.ft_page_all .div_left .txt{
+    margin-top: 80px;
+}
+
+.ft_page_all .div_left .txt ul li{
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    letter-spacing:1px;
+    line-height: 170%;
+    color: #333333;
+    padding-left: 20px;
+}
+.ft_page_all .div_left .txt ul li:before{
+    content: "●";
+    position: absolute;
+    top: 0;
+    left: 2px;
+    z-index: 1;
+}
+
+.ft_page_all .div_right{
+    width: 52%;
+    display: flex;
+    justify-content:space-between;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+.ft_page_all .div_right .btn_all{
+    width: 47.884%;
+    background-color: #C1272D;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ft_page_all .div_right .btn_all:hover{
+    opacity: 0.8;
+}
+
+.ft_page_all .div_right .btn_all .div_df{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ft_page_all .div_right .btn_all .div_df span{
+    font-size: 18px;
+    letter-spacing:1px;
+    line-height:166%;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
 }
