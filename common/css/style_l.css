@@ -200,8 +200,6 @@ a.a_btn01:hover{
     margin-left: 20px;
     margin-right: 6px;
     position: relative;
-    padding-left: 30px;
-    padding-right: 0px;
     padding-top: 40px;
     padding-bottom: 20px;
     position: relative;
@@ -240,6 +238,7 @@ a.a_btn01:hover{
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    padding-left: 30px;
 }
 
 .all_item01 .item .div_item01 .text .title{
@@ -259,8 +258,8 @@ a.a_btn01:hover{
 
 .all_item01 .item .div_item02{
     width: 100%;
-    padding-right: 30px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .all_item01 .item .div_item02 .txt{
@@ -275,8 +274,8 @@ a.a_btn01:hover{
 }
 
 .all_item01 .item .div_item03{
-    padding-right: 30px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-top: 13px;
 }
 
@@ -285,6 +284,7 @@ a.a_btn01:hover{
     font-weight: bold;
     letter-spacing:0.13px;
     line-height: 110%;
+    text-align: center;
 }
 
 .all_item01 .item .div_item03 .txt01 .sp_01, .all_item01 .item .div_item03 .txt01 .sp_02{
@@ -293,6 +293,13 @@ a.a_btn01:hover{
     font-weight: bold;
     letter-spacing:1px;
     color: #333333;
+}
+
+.all_item01 .item .div_item03 .spanall{
+    display: inline-block;
+    min-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .all_item01 .item .div_item03 .txt01 .sp_01{
@@ -307,18 +314,24 @@ a.a_btn01:hover{
     color: #C1272D;
 }
 
-.all_item01 .item .div_item03 .txt02{
+.all_item01 .item .div_item03 .txt01 .txt02{
     font-size: 14px;
     letter-spacing:0.5px;
     line-height: 235%;
     color: #333333;
     text-align: right;
+    font-weight: normal;
 }
 
-.all_item01 .item .div_item03 .txt02 .sp_01{
+.all_item01 .item .div_item03 .txt01 .txt02 .sp_01{
     font-size: 10px;
     line-height: 320%;
     letter-spacing:0.1px;
     margin-right: 10px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.all_item01 .item .div_item03 .txt01 .txt02 .price{
     color: #333333;
 }
