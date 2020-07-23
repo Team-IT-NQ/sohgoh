@@ -327,6 +327,10 @@
 }
 
 @media screen and (max-width:750px) {
+    .gird-1140, .gr-tg-top-02, .gr-tg-top-08, .gr-tg-top-10 {
+        padding-right: 4vw;
+        padding-left: 4vw;
+    }
     .gr-tg-me02, .gr-tg-me02 a:not(:first-child), .gr-tg-me03 {
         margin-top: 2.400vw;
     }
