@@ -8,8 +8,6 @@ $(document).ready(function() {
         $(this).addClass('active');
     });
 
-    
-
     var topBtn = $('.gr-tg-scroll'); 
     topBtn.click(function() {
         $('body,html').animate({
