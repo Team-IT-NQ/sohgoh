@@ -544,107 +544,107 @@ a.a_btn01:hover {
     display: inline-block;
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
     .div_breadcrumb {
         padding: 2px 20px;
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1140px) {
     .div_breadcrumb {
-        padding: 2px 2vw;
-        margin-bottom: 4.2vw;
+        padding: 2px 1.754vw;
+        margin-bottom: 3.684vw;
     }
 
     .div_lec01 .title {
-        font-size: 2.4vw;
-        margin-top: 2vw;
+        font-size: 2.105vw;
+        margin-top: 1.754vw;
     }
 
     .div_lec01 .txt {
-        margin-top: 1.8vw;
-        font-size: 1.6vw;
+        margin-top: 1.579vw;
+        font-size: 1.404vw;
     }
 
     .div_lec02 {
-        margin-top: 4vw;
+        margin-top: 3.509vw;
     }
 
     .div_lec02 .div_content .title {
-        font-size: 2vw;
-        margin-bottom: 2.3vw;
+        font-size: 1.754vw;
+        margin-bottom: 2.018vw;
     }
 
     .div_lec02 .div_content .list_item {
-        margin-top: 2vw;
-        min-height: 8.8vw;
-        margin-bottom: 1.8vw;
+        margin-top: 1.754vw;
+        min-height: 7.719vw;
+        margin-bottom: 1.579vw;
     }
 
     .div_lec02 .div_content .list_item ul li {
-        font-size: 1.2vw;
+        font-size: 1.053vw;
     }
 
     a.a_btn01 {
-        font-size: 1.4vw;
-        border-radius: 2.4vw;
-        -webkit-border-radius: 2.4vw;
-        -moz-border-radius: 2.4vw;
-        -ms-border-radius: 2.4vw;
-        -o-border-radius: 2.4vw;
-        height: 4.8vw;
-        margin-top: 1vw;
-    }
+        font-size: 1.228vw;
+        border-radius: 2.105vw;
+        -webkit-border-radius: 2.105vw;
+        -moz-border-radius: 2.105vw;
+        -ms-border-radius: 2.105vw;
+        -o-border-radius: 2.105vw;
+        height: 4.211vw;
+        margin-top: 0.877vw;
+}
 
     a.a_btn01.icon01::after {
-        width: 1.4vw;
-        height: 1.8vw;
-        margin-left: 0.6vw;
+        width: 1.228vw;
+        height: 1.579vw;
+        margin-left: 0.526vw;
     }
 
     #lic_sec02 {
-        padding-top: 9vw;
+        padding-top: 7.895vw;
     }
 
     #lic_sec02 .title_style01 {
-        font-size: 3vw;
-        margin-bottom: 0.8vw;
+        font-size: 2.632vw;
+        margin-bottom:0.702vw;
     }
 
     #lic_sec02 .txt_out {
-        font-size: 1.6vw;
+        font-size: 1.404vw;
     }
 
     .all_item01 {
-        margin-top: 7.5vw;
-        margin-bottom: 9.5vw;
+        margin-top: 6.579vw;
+        margin-bottom: 8.333vw;
     }
 
     .all_item01 .item {
-        border-radius: 1vw;
-        -webkit-border-radius: 1vw;
-        -moz-border-radius: 1vw;
-        -ms-border-radius: 1vw;
-        -o-border-radius: 1vw;
-        margin-left: 2vw;
-        margin-right: 0.6vw;
-        padding-top: 4vw;
-        padding-bottom: 2vw;
-        margin-bottom: 3vw;
-    }
+        border-radius: 0.877vw;
+        -webkit-border-radius: 0.877vw;
+        -moz-border-radius: 0.877vw;
+        -ms-border-radius: 0.877vw;
+        -o-border-radius: 0.877vw;
+        margin-left: 1.754vw;
+        margin-right: 0.526vw;
+        padding-top: 3.509vw;
+        padding-bottom: 1.754vw;
+        margin-bottom: 2.632vw;
+}
 
     .all_item01 .item .div_item01 {
-        padding-left: 3.5vw;
-        padding-right: 0.5vw;
+        padding-left: 3.070vw;
+        padding-right: 0.439vw;
     }
 
     .all_item01 .item .img {
-        padding-right: 1vw;
+        padding-right: 0.877vw;
     }
 
     .all_item01 .item .img img {
-        width: 8vw;
-        max-height: 7vw;
+        width: 7.018vw;
+        max-height: 7.018vw;
     }
 
     .all_item01 .item .div_hover img {
@@ -652,165 +652,165 @@ a.a_btn01:hover {
     }
 
     .all_item01 .item .div_item01 .text {
-        padding-top: 0.6vw;
+        padding-top: 0.526vw;
     }
 
     .all_item01 .item .div_item01 .text .title {
-        font-size: 1.8vw;
+        font-size: 1.579vw;
     }
 
     .all_item01 .item .div_item01 .text .txt {
-        font-size: 1.4vw;
+        font-size: 1.228vw;
     }
 
     .all_item01 .item .div_item02 {
-        padding-right: 1vw;
-        padding-left: 1vw;
+        padding-right: 0.877vw;
+        padding-left: 0.877vw;
     }
 
     .all_item01 .item .div_item02 .txt {
-        font-size: 1.4vw;
-        padding-top: 1.2vw;
+        font-size: 1.228vw;
+        padding-top: 1.053vw;
     }
 
     .all_item01 .item .div_item03 {
-        padding-right: 1vw;
-        padding-left: 1vw;
-        margin-top: 1.3vw;
+        padding-right: 0.877vw;
+        padding-left: 0.877vw;
+        margin-top: 1.140vw;
     }
 
     .all_item01 .item .div_item03 .txt01 {
-        font-size: 3vw;
+        font-size: 2.632vw;
     }
 
     .all_item01 .item .div_item03 .spanall {
-        min-width: 17vw;
+        min-width: 1.491vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .sp_01 {
-        margin-right: 1.4vw;
+        margin-right: 1.228vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .sp_02 {
-        margin-right: 1vw;
+        margin-right: 0.877vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .txt02 {
-        font-size: 1.4vw;
+        font-size: 1.228vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .txt02 .sp_01 {
-        font-size: 1vw;
-        margin-right: 1vw;
+        font-size: 0.877vw;
+        margin-right: 0.877vw;
     }
 
     .all_item01 .item .div_item03 {
-        padding-right: 1vw;
-        padding-left: 1vw;
-        margin-top: 1.3vw;
+        padding-right: 0.877vw;
+        padding-left: 0.877vw;
+        margin-top: 1.140vw;
     }
 
     .all_item01 .item .div_item03 .txt01 {
-        font-size: 3vw;
+        font-size: 2.632vw;
     }
 
     .all_item01 .item .div_item03 .spanall {
-        min-width: 17vw;
+        min-width: 14.912vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .sp_01 {
-        margin-right: 1.4vw;
+        margin-right: 1.228vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .sp_02 {
-        margin-right: 1vw;
+        margin-right: 0.877vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .txt02 {
-        font-size: 1.4vw;
+        font-size: 1.228vw;
     }
 
     .all_item01 .item .div_item03 .txt01 .txt02 .sp_01 {
-        font-size: 1vw;
-        margin-right: 1vw;
+        font-size: 0.877vw;
+        margin-right: 0.877vw;
     }
 
     .all_item01 .item .icon_tag {
-        top: -1.5vw;
-        left: -2vw;
+        top: -1.316vw;
+        left: -1.754vw;
     }
 
     .all_item01 .item .icon_tag .icon_add {
-        width: 5vw;
-        height: 5vw;
-        margin-bottom: 1.2vw;
+        width: 4.386vw;
+        height: 4.386vw;
+        margin-bottom: 1.053vw;
     }
 
     .all_item01 .item .icon_tag .icon_add span {
-        font-size: 1.4vw;
+        font-size: 1.228vw;
     }
 
     .all_item01 .item .div_hover {
-        border-radius: 1vw;
-        -webkit-border-radius: 1vw;
-        -moz-border-radius: 1vw;
-        -ms-border-radius: 1vw;
-        -o-border-radius: 1vw;
-    }
+        border-radius: 0.877vw;
+        -webkit-border-radius: 0.877vw;
+        -moz-border-radius: 0.877vw;
+        -ms-border-radius: 0.877vw;
+        -o-border-radius: 0.877vw;
+}
 
     .all_item01 .item .div_hover .txt {
-        font-size: 1.6vw;
+        font-size: 1.404vw;
     }
 
     .ft_page_all .div_left .title {
-        font-size: 3vw;
-        margin-top: 2vw;
+        font-size: 2.632vw;
+        margin-top: 1.754vw;
     }
 
     .ft_page_all .div_left .txt {
-        margin-top: 8vw;
+        margin-top: 7.018vw;
     }
 
     .ft_page_all .div_right .btn_all .div_df span {
-        font-size: 1.8vw;
-        margin-top: 3vw;
+        font-size: 1.579vw;
+        margin-top: 2.632vw;
     }
 
     .ft_page_all .div_right .btn_all .div_df img {
-        height: 11.7vw;
+        height: 10.263vw;
     }
 
     .ft_page_all .div_left .txt ul li {
-        font-size: 1.8vw;
-        padding-left: 2vw;
+        font-size: 1.579vw;
+        padding-left: 1.754vw;
     }
 
     .ft_page_all .div_left .txt ul li:before {
-        left: 0.2vw;
+        left: 0.175vw;
     }
 
     .ft_page_all .div_btn {
-        margin-top: 13vw;
+        margin-top: 11.404vw;
     }
 
     .ft_page_all .div_btn .btn_all {
-        max-width: 76.5vw;
-        margin-bottom: 2vw;
-        height: 6vw;
-        font-size: 1.7vw;
+        max-width: 67.105vw;
+        margin-bottom: 1.754vw;
+        height: 5.263vw;
+        font-size: 1.491vw;
     }
 
     .ft_page_all .div_btn .btn_all img {
-        margin-left: 1.1vw;
-        height: 1.85vw;
+        margin-left: 0.965vw;
+        height: 1.623vw;
     }
 
     .ft_page_all {
-        margin-bottom: 18vw;
+        margin-bottom: 15.789vw;
     }
 
     .div_lec02 .div_content .img {
-        height: 8.2vw;
+        height: 7.193vw;
     }
 }
 
